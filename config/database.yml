@@ -5,8 +5,8 @@ development:
   adapter: postgresql 
   encoding: utf8 
   database: ca_site_dev 
-  username: ca
-  host: localhost
+  username: env['DB_USER']
+  host: db.createappalachia.org
   pool: 5
   port: 5432
-  password: 71 wilson street
+  password: env['DB_PASS']
