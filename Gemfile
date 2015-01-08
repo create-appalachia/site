@@ -35,6 +35,9 @@ group :development, :test do
   
   # Spring: https://github.com/rails/spring
   gem 'spring', '1.2.0'
+
+  gem 'capistrano-rails'
+  gem 'capistrano-passenger'
 end
 
 # PostgreSQL
