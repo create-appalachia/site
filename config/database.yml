@@ -1,0 +1,12 @@
+# PostgreSQL
+#   Ensure the PostgreSQL gem is defined in your Gemfile
+#   gem 'pg'
+development: 
+  adapter: sqlite3
+  encoding: utf8 
+  database: ca_site_dev 
+  username: env['DB_USER']
+  host: db.createappalachia.org
+  pool: 5
+  port: 5432
+  password: env['DB_PASS']
