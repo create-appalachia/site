@@ -37,6 +37,7 @@ group :development, :test do
   gem 'spring', '1.2.0'
 
   gem 'capistrano-rails'
+  gem 'capistrano-rvm'
   gem 'capistrano-passenger'
 end
 
