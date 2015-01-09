@@ -39,6 +39,8 @@ group :development, :test do
   gem 'capistrano-rails'
   gem 'capistrano-rvm'
   gem 'capistrano-passenger'
+
+  gem 'sqlite3'
 end
 
 # PostgreSQL
